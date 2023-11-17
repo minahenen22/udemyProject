@@ -12,6 +12,8 @@ public class windowsActivities {
 		driver.navigate().to("http://rahulshettyacademy.com");
 		driver.navigate().back();
 		driver.navigate().forward();
+
+		System.out.println("updatred the project");
 		
 	}
 
