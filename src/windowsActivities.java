@@ -1,5 +1,6 @@
 import java.time.Duration;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -14,6 +15,8 @@ public class windowsActivities {
 		driver.navigate().forward();
 
 		System.out.println("updatred the project");
+		System.out.println("UPDATE**********************");
+		
 		
 	}
 
